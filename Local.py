@@ -21,7 +21,7 @@ answer = (input(""))
 if answer == "/bye":
     quit()
 else:
-    answer = int(answer)
+    answer = int[answer]
     answer2 = models[answer-1]
     model = OllamaLLM(model=answer2)
     print(f"Chatting with {answer2}. write '/bye' to exit.")
